@@ -1,0 +1,26 @@
+key,en,es
+title,Science communication report,Informe de comunicación científica
+finding,The finding,El resultado
+claim,Claim,Afirmación
+direction,Direction,Dirección
+design,Design,Diseño
+certainty,Certainty,Certeza
+population,Population,Población
+effect,Effect,Efecto
+limitations,Limitations,Limitaciones
+comparison,Fidelity across audiences,Fidelidad entre públicos
+element,Element,Elemento
+versions,The versions,Las versiones
+indicators,Indicators,Indicadores
+dimension,Dimension,Dimensión
+indicator,Indicator,Indicador
+value,Value,Valor
+target,Target,Objetivo
+detail,Detail,Detalle
+legend,"Highlighted: causal wording, boosters and intensifiers (orange); hedges (green); limitation language (blue).","Resaltado: lenguaje causal, reforzadores e intensificadores (naranja); atenuadores (verde); lenguaje sobre limitaciones (azul)."
+caveat_title,How to read this report,Cómo leer este informe
+caveat,"These indicators are transparent proxies computed from the words of each text. They point to passages that deserve a careful reading; they do not prove that a text is faithful or clear. Judging rigour needs an expert, and showing that readers understand a message needs a study with readers. There is no overall score.","Estos indicadores son aproximaciones transparentes calculadas a partir de las palabras de cada texto. Señalan pasajes que merecen una lectura atenta; no demuestran que un texto sea fiel o claro. Valorar el rigor requiere a un experto, y demostrar que los lectores entienden un mensaje requiere un estudio con lectores. No hay una puntuación global."
+generated,Generated with scicomm on,Generado con scicomm el
+causal_yes,supports causal claims,permite conclusiones causales
+causal_no,does not support causal claims,no permite conclusiones causales
+flagged,flagged,señalado

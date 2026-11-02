@@ -1,0 +1,53 @@
+url: https://pablosancheznunez.com/scicomm/
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#9a3412"
+  opengraph:
+    image:
+      src: man/figures/card.png
+      alt: "scicomm: fidelity and audience fit in science communication"
+
+authors:
+  Pablo Sánchez-Núñez:
+    href: https://pablosancheznunez.com
+
+home:
+  links:
+  - text: Example report
+    href: https://pablosancheznunez.com/scicomm/example/report.html
+  - text: Informe de ejemplo (español)
+    href: https://pablosancheznunez.com/scicomm/example/report-es.html
+  - text: Author website
+    href: https://pablosancheznunez.com
+
+navbar:
+  structure:
+    left: [intro, reference, news]
+    right: [search, github]
+
+reference:
+- title: Describe
+  desc: The finding, once, and each text that communicates it.
+  contents:
+  - sc_finding
+  - sc_version
+  - sc_example
+- title: Assess
+  desc: Indicators, one by one, with no composite score.
+  contents:
+  - sc_assess
+  - sc_fidelity
+  - sc_clarity
+  - sc_accessibility
+  - sc_uncertainty
+  - sc_readability
+- title: Compare and report
+  contents:
+  - sc_compare
+  - sc_report
+- title: Configure
+  contents:
+  - sc_targets
+  - sc_lexicon

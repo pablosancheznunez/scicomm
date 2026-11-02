@@ -1,0 +1,351 @@
+lang,category,term
+en,hedge,may
+en,hedge,might
+en,hedge,could
+en,hedge,suggest
+en,hedge,suggests
+en,hedge,suggested
+en,hedge,appear
+en,hedge,appears
+en,hedge,seem
+en,hedge,seems
+en,hedge,likely
+en,hedge,unlikely
+en,hedge,possibly
+en,hedge,possible
+en,hedge,perhaps
+en,hedge,probably
+en,hedge,indicate
+en,hedge,indicates
+en,hedge,tend to
+en,hedge,tends to
+en,hedge,approximately
+en,hedge,roughly
+en,hedge,some evidence
+en,hedge,preliminary
+en,hedge,potentially
+en,booster,clearly
+en,booster,definitely
+en,booster,certainly
+en,booster,undoubtedly
+en,booster,conclusively
+en,booster,prove
+en,booster,proves
+en,booster,proved
+en,booster,proven
+en,booster,always
+en,booster,never
+en,booster,breakthrough
+en,booster,cure
+en,booster,guarantee
+en,booster,guarantees
+en,booster,without doubt
+en,booster,definitive
+en,booster,ruins
+en,booster,miracle
+en,causal,causes
+en,causal,cause
+en,causal,caused
+en,causal,leads to
+en,causal,led to
+en,causal,results in
+en,causal,resulted in
+en,causal,triggers
+en,causal,drives
+en,causal,boosts
+en,causal,prevents
+en,causal,improves
+en,causal,worsens
+en,causal,damages
+en,causal,harms
+en,causal,ruins
+en,causal,because of
+en,causal,the effect of
+en,causal,effect of
+en,associative,associated with
+en,associative,association
+en,associative,linked to
+en,associative,linked with
+en,associative,correlated
+en,associative,correlation
+en,associative,related to
+en,associative,predicts
+en,associative,predicted
+en,nonhuman,mice
+en,nonhuman,mouse
+en,nonhuman,rats
+en,nonhuman,rat
+en,nonhuman,animal
+en,nonhuman,animals
+en,nonhuman,in vitro
+en,nonhuman,cells
+en,nonhuman,cell culture
+en,nonhuman,zebrafish
+en,nonhuman,primates
+en,nonhuman,monkeys
+en,nonhuman,laboratory
+en,limitation,limitation
+en,limitation,limitations
+en,limitation,limited
+en,limitation,however
+en,limitation,although
+en,limitation,caution
+en,limitation,cautious
+en,limitation,further research
+en,limitation,more research
+en,limitation,small sample
+en,limitation,not yet
+en,limitation,uncertain
+en,limitation,cannot show
+en,limitation,does not show
+en,limitation,do not show
+en,uncertainty_number,confidence interval
+en,uncertainty_number,95% ci
+en,uncertainty_number,margin of error
+en,increase,increase
+en,increase,increases
+en,increase,increased
+en,increase,higher
+en,increase,rise
+en,increase,rises
+en,increase,greater
+en,increase,better
+en,increase,improves
+en,decrease,decrease
+en,decrease,decreases
+en,decrease,decreased
+en,decrease,lower
+en,decrease,fewer
+en,decrease,reduce
+en,decrease,reduces
+en,decrease,reduced
+en,decrease,drop
+en,decrease,worse
+en,decrease,ruins
+en,relative_risk,times more likely
+en,relative_risk,times as likely
+en,relative_risk,times the risk
+en,relative_risk,doubles the risk
+en,relative_risk,double the risk
+en,relative_risk,triples the risk
+en,relative_risk,-fold
+en,relative_risk,% more likely
+en,relative_risk,% less likely
+en,relative_risk,relative risk
+en,relative_risk,odds ratio
+en,absolute_risk,out of
+en,absolute_risk,in every
+en,absolute_risk,per 100
+en,absolute_risk,per 1000
+en,absolute_risk,per 1,000
+en,absolute_risk,absolute risk
+en,explanation,which is
+en,explanation,which means
+en,explanation,that is
+en,explanation,in other words
+en,explanation,meaning
+en,explanation,known as
+en,explanation,called
+es,hedge,puede
+es,hedge,pueden
+es,hedge,podría
+es,hedge,podrían
+es,hedge,sugiere
+es,hedge,sugieren
+es,hedge,parece
+es,hedge,parecen
+es,hedge,probablemente
+es,hedge,probable
+es,hedge,posiblemente
+es,hedge,posible
+es,hedge,quizá
+es,hedge,quizás
+es,hedge,tal vez
+es,hedge,indica
+es,hedge,indican
+es,hedge,tiende a
+es,hedge,tienden a
+es,hedge,aproximadamente
+es,hedge,alrededor de
+es,hedge,en torno a
+es,hedge,cerca de
+es,hedge,algunos indicios
+es,hedge,preliminar
+es,hedge,preliminares
+es,booster,claramente
+es,booster,definitivamente
+es,booster,sin duda
+es,booster,indudablemente
+es,booster,demuestra
+es,booster,demuestran
+es,booster,demostrado
+es,booster,probado
+es,booster,siempre
+es,booster,nunca
+es,booster,revolucionario
+es,booster,revolucionaria
+es,booster,garantiza
+es,booster,confirma
+es,booster,confirman
+es,booster,arruina
+es,booster,milagro
+es,causal,causa
+es,causal,causan
+es,causal,provoca
+es,causal,provocan
+es,causal,produce
+es,causal,producen
+es,causal,conduce a
+es,causal,da lugar a
+es,causal,desencadena
+es,causal,previene
+es,causal,mejora
+es,causal,empeora
+es,causal,daña
+es,causal,perjudica
+es,causal,arruina
+es,causal,debido a
+es,causal,por culpa de
+es,causal,el efecto de
+es,causal,efecto de
+es,associative,asociado a
+es,associative,asociado con
+es,associative,asociada a
+es,associative,asociada con
+es,associative,se asocia
+es,associative,asociación
+es,associative,relacionado con
+es,associative,relacionada con
+es,associative,vinculado a
+es,associative,vinculada a
+es,associative,correlación
+es,associative,se relaciona
+es,associative,predice
+es,nonhuman,ratones
+es,nonhuman,ratón
+es,nonhuman,ratas
+es,nonhuman,rata
+es,nonhuman,animales
+es,nonhuman,animal
+es,nonhuman,in vitro
+es,nonhuman,células
+es,nonhuman,cultivo celular
+es,nonhuman,pez cebra
+es,nonhuman,primates
+es,nonhuman,monos
+es,nonhuman,laboratorio
+es,limitation,limitación
+es,limitation,limitaciones
+es,limitation,limitado
+es,limitation,limitada
+es,limitation,sin embargo
+es,limitation,aunque
+es,limitation,cautela
+es,limitation,prudencia
+es,limitation,más investigación
+es,limitation,muestra pequeña
+es,limitation,todavía no
+es,limitation,aún no
+es,limitation,incierto
+es,limitation,no permite
+es,limitation,no demuestra
+es,uncertainty_number,intervalo de confianza
+es,uncertainty_number,ic del 95%
+es,uncertainty_number,ic 95%
+es,uncertainty_number,margen de error
+es,increase,aumenta
+es,increase,aumentan
+es,increase,aumento
+es,increase,mayor
+es,increase,mayores
+es,increase,sube
+es,increase,mejor
+es,increase,mejores
+es,increase,mejora
+es,decrease,disminuye
+es,decrease,disminuyen
+es,decrease,disminución
+es,decrease,reduce
+es,decrease,reducen
+es,decrease,reducción
+es,decrease,menor
+es,decrease,menores
+es,decrease,baja
+es,decrease,peor
+es,decrease,peores
+es,decrease,arruina
+es,relative_risk,veces más probable
+es,relative_risk,veces más riesgo
+es,relative_risk,duplica el riesgo
+es,relative_risk,triplica el riesgo
+es,relative_risk,% más probable
+es,relative_risk,% menos probable
+es,relative_risk,riesgo relativo
+es,relative_risk,odds ratio
+es,absolute_risk,de cada
+es,absolute_risk,por cada
+es,absolute_risk,por 100
+es,absolute_risk,por 1000
+es,absolute_risk,por 1.000
+es,absolute_risk,riesgo absoluto
+es,explanation,es decir
+es,explanation,o sea
+es,explanation,lo que significa
+es,explanation,que significa
+es,explanation,llamado
+es,explanation,llamada
+es,explanation,conocido como
+es,explanation,conocida como
+en,intensifier,much worse
+en,intensifier,much better
+en,intensifier,dramatically
+en,intensifier,dramatic
+en,intensifier,huge
+en,intensifier,massive
+en,intensifier,enormous
+en,intensifier,drastically
+en,intensifier,sharply
+en,intensifier,radically
+en,intensifier,significantly
+en,no_effect,no difference
+en,no_effect,no effect
+en,no_effect,no association
+en,no_effect,did not
+en,no_effect,does not affect
+en,no_effect,similar
+es,intensifier,mucho peores
+es,intensifier,mucho mejores
+es,intensifier,mucho peor
+es,intensifier,mucho mejor
+es,intensifier,muchísimo
+es,intensifier,enorme
+es,intensifier,enormes
+es,intensifier,drásticamente
+es,intensifier,espectacular
+es,intensifier,radicalmente
+es,intensifier,significativamente
+es,no_effect,sin diferencias
+es,no_effect,ninguna diferencia
+es,no_effect,no hubo diferencias
+es,no_effect,ningún efecto
+es,no_effect,no se asoció
+es,no_effect,no afecta
+es,no_effect,similar
+es,no_effect,similares
+en,nonhuman,in mice
+es,explanation,lo que se llama
+en,increase,more
+en,decrease,less
+es,increase,más
+es,increase,alta
+es,increase,altas
+es,increase,alto
+es,increase,altos
+es,increase,superior
+es,increase,superiores
+es,decrease,menos
+es,decrease,bajas
+es,decrease,bajo
+es,decrease,bajos
+es,decrease,inferior
+es,decrease,inferiores

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 278" width="240" height="278" role="img" aria-label="scicomm logo">
+  <polygon points="120,4 236,71 236,207 120,274 4,207 4,71" fill="#9a3412" stroke="#73260c" stroke-width="6"/>
+  <path d="M44 66 h152 a12 12 0 0 1 12 12 v100 a12 12 0 0 1 -12 12 h-84 l-28 26 v-26 h-40 a12 12 0 0 1 -12 -12 v-100 a12 12 0 0 1 12 -12 z" fill="#ffffff"/>
+  <rect x="58" y="88" width="124" height="16" rx="7" fill="#9a3412"/>
+  <rect x="58" y="120" width="92" height="16" rx="7" fill="#e8a27c"/>
+  <rect x="58" y="152" width="60" height="16" rx="7" fill="#f3c9b0"/>
+  <circle cx="172" cy="158" r="20" fill="#2f7a4f"/>
+</svg>

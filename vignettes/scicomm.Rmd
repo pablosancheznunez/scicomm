@@ -1,0 +1,106 @@
+---
+title: "Get started with scicomm"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Get started with scicomm}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+A scientific result is rarely communicated once. The same finding becomes an abstract for specialists, a lesson for students and a news story for the public, and something can be lost or added at each step. scicomm makes those steps visible: it describes the finding once, in a structured way, and checks each text against it.
+
+```{r setup}
+library(scicomm)
+```
+
+## 1. Describe the finding
+
+The finding is written from the original study, not from a summary of it. The design matters: an observational study does not support causal claims, and a study in mice says nothing yet about people.
+
+```{r finding}
+finding <- sc_finding(
+  claim = "Secondary school students who slept less than 7 hours a night had lower maths scores.",
+  direction = "decrease",
+  design = "observational",
+  certainty = "low",
+  population = "2,400 secondary school students in one region of Spain",
+  effect = "4.2 points lower on a 100-point test (95% CI 2.1 to 6.3)",
+  numbers = c(4.2, 2400),
+  limitations = c("self-reported data",
+                  "cross-sectional design: both variables measured at the same time",
+                  "students from a single region"),
+  terms = c("cross-sectional", "confidence interval")
+)
+finding
+```
+
+## 2. Add the versions
+
+Each version has an intended audience: `"specialist"`, `"student"` or `"public"`. The package includes an example with three versions of this finding, in English and Spanish. The public version deliberately overstates the result.
+
+```{r versions}
+ex <- sc_example()
+ex$versions$public
+```
+
+## 3. Compare the audiences
+
+`sc_compare()` shows, element by element, whether each version keeps what the evidence supports, with reading ease in the last row, so that simplification and fidelity can be read together.
+
+```{r compare}
+sc_compare(ex$finding, ex$versions)
+```
+
+The specialist and student versions keep the finding while becoming easier to read. The public version is the easiest, but it uses causal wording for an observational design, drops every number and limitation, and states a low-certainty result as proven.
+
+## 4. All indicators
+
+`sc_assess()` runs every indicator. Indicators are grouped in dimensions and reported one by one; there is no overall score.
+
+```{r assess}
+a <- sc_assess(ex$finding, ex$versions)
+a
+```
+
+```{r indicators}
+pub <- a$indicators[a$indicators$version == "public", ]
+pub[, c("dimension", "indicator", "value", "target", "flag")]
+```
+
+| Dimension | What the indicators look at |
+|---|---|
+| Clarity | Sentence length, reading ease (Flesch; Szigriszt-Pazos for Spanish), long words, acronyms, passive voice |
+| Accessibility | Reading ease against the audience's target, unexplained technical terms, relative risks without absolute risks |
+| Uncertainty | Hedges and boosters, limitations mentioned, intervals or ranges |
+| Fidelity | Causal language, population, non-human studies, direction, numbers, magnitude, certainty, limitations |
+
+The targets used for flags are conventions, and can be changed:
+
+```{r targets}
+sc_targets()
+```
+
+## 5. Spanish
+
+Everything works in Spanish, with Spanish lexicons and the Szigriszt-Pazos perspicuity index interpreted on the INFLESZ scale.
+
+```{r spanish}
+es <- sc_example("es")
+sc_compare(es$finding, es$versions)
+```
+
+## 6. Report
+
+`sc_report()` writes a self-contained HTML report with the finding, the comparison, and every text with causal wording, boosters, hedges and limitation language highlighted.
+
+```{r report, eval = FALSE}
+sc_report(a, file = "scicomm-report.html")
+```
+
+## What the indicators cannot tell you
+
+The indicators work on words. They point to passages that deserve a careful reading: a causal verb, a missing limitation, a number that disappeared. They cannot tell whether a paraphrase keeps the meaning, whether an analogy misleads, or whether readers understand the message. Judging rigour needs an expert, and showing understanding needs a study with readers, such as a comparison of comprehension questions across versions.

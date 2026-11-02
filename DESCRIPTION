@@ -1,0 +1,39 @@
+Package: scicomm
+Title: Assess Fidelity and Audience Fit in Science Communication
+Version: 0.1.0
+Authors@R:
+    person("Pablo", "Sánchez-Núñez", email = "psancheznunez@outlook.com",
+           role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0001-7845-9506"))
+Description: Assesses how a scientific result is communicated to different
+    audiences, such as specialists, students and the general public. A
+    result is described once, in a structured way (direction, effect,
+    certainty, study design, population and limitations), and each text that
+    communicates it is checked against it: whether its language is causal
+    when the design is not, whether findings from animals are presented as
+    if they applied to people, whether numbers and limitations are kept,
+    and whether certainty is overstated. It also reports clarity and
+    accessibility indicators for English and Spanish, including the Flesch
+    reading ease and the Szigriszt-Pazos perspicuity index, compares the
+    versions written for each audience, and writes a self-contained HTML
+    report. Indicators are transparent proxies, reported one by one without
+    a composite score; whether readers understand a message can only be
+    shown by studies with readers.
+License: MIT + file LICENSE
+URL: https://pablosancheznunez.com/scicomm/,
+    https://github.com/pablosancheznunez/scicomm
+BugReports: https://github.com/pablosancheznunez/scicomm/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    stats,
+    utils
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
